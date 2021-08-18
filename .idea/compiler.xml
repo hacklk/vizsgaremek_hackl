@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="vizsgaremek_hackl" target="11" />
+      <module name="vizsgaremek_hackl" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
