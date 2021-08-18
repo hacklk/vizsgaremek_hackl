@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://hacklk.github.io/vizsgaremek_hackl",
+  "buildOrder" : 6,
+  "buildName" : "GitHub Actions Run #1142470762",
+  "buildUrl" : "https://github.com/hacklk/vizsgaremek_hackl/actions/runs/1142470762",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://hacklk.github.io/vizsgaremek_hackl/6/"
+} ]

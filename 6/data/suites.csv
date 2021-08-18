@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Aug 18 08:57:25 GMT 2021","Wed Aug 18 08:57:38 GMT 2021","13403","","TestTest","","TestTest","goToUrl","goToUrl()",""
