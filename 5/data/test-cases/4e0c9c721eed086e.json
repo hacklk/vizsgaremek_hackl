@@ -1,0 +1,102 @@
+{
+  "uid" : "4e0c9c721eed086e",
+  "name" : "goToUrl()",
+  "fullName" : "TestTest.goToUrl",
+  "historyId" : "16d5c095c1e72cbb9d1241f952a0c1ae",
+  "time" : {
+    "start" : 1629276476201,
+    "stop" : 1629276490499,
+    "duration" : 14298
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetDriver",
+    "time" : {
+      "start" : 1629276476204,
+      "stop" : 1629276480369,
+      "duration" : 4165
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Init",
+    "time" : {
+      "start" : 1629276473231,
+      "stop" : 1629276476178,
+      "duration" : 2947
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629276490422,
+      "stop" : 1629276490492,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az83-93"
+  }, {
+    "name" : "thread",
+    "value" : "2898@fv-az83-93.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TestTest"
+  }, {
+    "name" : "testClass",
+    "value" : "TestTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "goToUrl"
+  }, {
+    "name" : "suite",
+    "value" : "TestTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e0c9c721eed086e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "TestTest",
+    "children" : [ {
+      "name" : "goToUrl()",
+      "uid" : "4e0c9c721eed086e",
+      "parentUid" : "a92e7d8da3c2e7ba7dbc9f760612d8e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629276476201,
+        "stop" : 1629276490499,
+        "duration" : 14298
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a92e7d8da3c2e7ba7dbc9f760612d8e5"
+  } ],
+  "name" : "suites"
+}

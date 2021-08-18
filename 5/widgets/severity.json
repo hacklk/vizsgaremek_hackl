@@ -1,0 +1,11 @@
+[ {
+  "uid" : "4e0c9c721eed086e",
+  "name" : "goToUrl()",
+  "time" : {
+    "start" : 1629276476201,
+    "stop" : 1629276490499,
+    "duration" : 14298
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
