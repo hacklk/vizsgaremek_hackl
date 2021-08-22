@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sun Aug 22 12:50:30 GMT 2021","Sun Aug 22 12:50:40 GMT 2021","10414","","LoginLogout_Test","","LoginLogout_Test","TestUserLoginWrongPassword","LI-03 Bejelentkezés felhasználóként rossz jelszó megadásával",""
+"broken","Sun Aug 22 12:50:40 GMT 2021","Sun Aug 22 12:50:51 GMT 2021","10403","","LoginLogout_Test","","LoginLogout_Test","TestUserLogin","LI-04 Bejelentkezés felhasználóként érvényes adatokkal",""
+"broken","Sun Aug 22 12:50:20 GMT 2021","Sun Aug 22 12:50:30 GMT 2021","10402","","LoginLogout_Test","","LoginLogout_Test","TestUserLoginNoPassword","LI-02 Bejelentkezés felhasználóként jelszó megadása nélkül",""
+"broken","Sun Aug 22 12:50:51 GMT 2021","Sun Aug 22 12:51:01 GMT 2021","10396","","GDPR_Test","","GDPR_Test","TestOpenGDPR","TestOpenGDPR()",""
+"broken","Sun Aug 22 12:50:09 GMT 2021","Sun Aug 22 12:50:20 GMT 2021","10437","","LoginLogout_Test","","LoginLogout_Test","TestUserLoginNoEmail","LI-01 Bejelentkezés felhasználóként email cím megadása nélkül",""
+"passed","Sun Aug 22 12:50:03 GMT 2021","Sun Aug 22 12:50:09 GMT 2021","6396","","TestTest","","TestTest","goToUrl","goToUrl()",""

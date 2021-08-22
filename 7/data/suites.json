@@ -1,0 +1,95 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "TestTest",
+    "children" : [ {
+      "name" : "goToUrl()",
+      "uid" : "65406f9553aa2d49",
+      "parentUid" : "a92e7d8da3c2e7ba7dbc9f760612d8e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629636603084,
+        "stop" : 1629636609480,
+        "duration" : 6396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a92e7d8da3c2e7ba7dbc9f760612d8e5"
+  }, {
+    "name" : "LoginLogout_Test",
+    "children" : [ {
+      "name" : "LI-01 Bejelentkezés felhasználóként email cím megadása nélkül",
+      "uid" : "75abcdf50f4cfc0d",
+      "parentUid" : "348972a8b3aee093b6fb5b77e9d2520c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629636609598,
+        "stop" : 1629636620035,
+        "duration" : 10437
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "LI-02 Bejelentkezés felhasználóként jelszó megadása nélkül",
+      "uid" : "2a6168c186f76c4b",
+      "parentUid" : "348972a8b3aee093b6fb5b77e9d2520c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629636620047,
+        "stop" : 1629636630449,
+        "duration" : 10402
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "LI-03 Bejelentkezés felhasználóként rossz jelszó megadásával",
+      "uid" : "d552ee3d783b990a",
+      "parentUid" : "348972a8b3aee093b6fb5b77e9d2520c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629636630454,
+        "stop" : 1629636640868,
+        "duration" : 10414
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "LI-04 Bejelentkezés felhasználóként érvényes adatokkal",
+      "uid" : "75cf45f2410cc4ca",
+      "parentUid" : "348972a8b3aee093b6fb5b77e9d2520c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629636640884,
+        "stop" : 1629636651287,
+        "duration" : 10403
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "348972a8b3aee093b6fb5b77e9d2520c"
+  }, {
+    "name" : "GDPR_Test",
+    "children" : [ {
+      "name" : "TestOpenGDPR()",
+      "uid" : "f4ad523164d0bb89",
+      "parentUid" : "1fb3c1da3b19848448f5e01ec2796692",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629636651293,
+        "stop" : 1629636661689,
+        "duration" : 10396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1fb3c1da3b19848448f5e01ec2796692"
+  } ],
+  "name" : "suites"
+}

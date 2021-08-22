@@ -1,0 +1,61 @@
+[ {
+  "uid" : "65406f9553aa2d49",
+  "name" : "goToUrl()",
+  "time" : {
+    "start" : 1629636603084,
+    "stop" : 1629636609480,
+    "duration" : 6396
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75cf45f2410cc4ca",
+  "name" : "LI-04 Bejelentkezés felhasználóként érvényes adatokkal",
+  "time" : {
+    "start" : 1629636640884,
+    "stop" : 1629636651287,
+    "duration" : 10403
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2a6168c186f76c4b",
+  "name" : "LI-02 Bejelentkezés felhasználóként jelszó megadása nélkül",
+  "time" : {
+    "start" : 1629636620047,
+    "stop" : 1629636630449,
+    "duration" : 10402
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d552ee3d783b990a",
+  "name" : "LI-03 Bejelentkezés felhasználóként rossz jelszó megadásával",
+  "time" : {
+    "start" : 1629636630454,
+    "stop" : 1629636640868,
+    "duration" : 10414
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "75abcdf50f4cfc0d",
+  "name" : "LI-01 Bejelentkezés felhasználóként email cím megadása nélkül",
+  "time" : {
+    "start" : 1629636609598,
+    "stop" : 1629636620035,
+    "duration" : 10437
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f4ad523164d0bb89",
+  "name" : "TestOpenGDPR()",
+  "time" : {
+    "start" : 1629636651293,
+    "stop" : 1629636661689,
+    "duration" : 10396
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,95 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "TestTest",
+    "children" : [ {
+      "name" : "goToUrl",
+      "uid" : "65406f9553aa2d49",
+      "parentUid" : "89a8cafb523a4abe005ef0eba3b886ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629636603084,
+        "stop" : 1629636609480,
+        "duration" : 6396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "89a8cafb523a4abe005ef0eba3b886ef"
+  }, {
+    "name" : "LoginLogout_Test",
+    "children" : [ {
+      "name" : "TestUserLoginNoEmail",
+      "uid" : "75abcdf50f4cfc0d",
+      "parentUid" : "12b72aa579863d12f156e6d98aa87a83",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629636609598,
+        "stop" : 1629636620035,
+        "duration" : 10437
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestUserLoginNoPassword",
+      "uid" : "2a6168c186f76c4b",
+      "parentUid" : "12b72aa579863d12f156e6d98aa87a83",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629636620047,
+        "stop" : 1629636630449,
+        "duration" : 10402
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestUserLoginWrongPassword",
+      "uid" : "d552ee3d783b990a",
+      "parentUid" : "12b72aa579863d12f156e6d98aa87a83",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629636630454,
+        "stop" : 1629636640868,
+        "duration" : 10414
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestUserLogin",
+      "uid" : "75cf45f2410cc4ca",
+      "parentUid" : "12b72aa579863d12f156e6d98aa87a83",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629636640884,
+        "stop" : 1629636651287,
+        "duration" : 10403
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "12b72aa579863d12f156e6d98aa87a83"
+  }, {
+    "name" : "GDPR_Test",
+    "children" : [ {
+      "name" : "TestOpenGDPR",
+      "uid" : "f4ad523164d0bb89",
+      "parentUid" : "ffa4d8da69d8092485911cca14eeb3dd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629636651293,
+        "stop" : 1629636661689,
+        "duration" : 10396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ffa4d8da69d8092485911cca14eeb3dd"
+  } ],
+  "name" : "packages"
+}
