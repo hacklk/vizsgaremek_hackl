@@ -34,9 +34,9 @@ public class TestTest {
 
     @Test
     public void goToUrl(){
-        webdriver.get("https://www.index.hu/");
+        webdriver.get("https://igym.hu/");
 
-        Assertions.assertEquals("https://index.hu/", webdriver.getCurrentUrl());
+        Assertions.assertEquals("https://igym.hu/", webdriver.getCurrentUrl());
     }
 
 }
