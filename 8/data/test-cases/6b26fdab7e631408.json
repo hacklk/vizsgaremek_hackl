@@ -1,0 +1,87 @@
+{
+  "uid" : "6b26fdab7e631408",
+  "name" : "RI-03 Regisztráció érvénytelen jelszó megadásával",
+  "fullName" : "Registration_Test.testNotValidPasswordRegistration",
+  "historyId" : "dff6acda3ff00f8b3aaa01d1cbbc9be4",
+  "time" : {
+    "start" : 1629652567854,
+    "stop" : 1629652571252,
+    "duration" : 3398
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetDriver",
+    "time" : {
+      "start" : 1629652567854,
+      "stop" : 1629652568112,
+      "duration" : 258
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629652571183,
+      "stop" : 1629652571252,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-803"
+  }, {
+    "name" : "thread",
+    "value" : "2900@fv-az77-803.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Registration_Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration_Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "testNotValidPasswordRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "Registration_Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b26fdab7e631408.json",
+  "parameterValues" : [ ]
+}

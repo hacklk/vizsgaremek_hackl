@@ -1,0 +1,125 @@
+{
+  "uid" : "844e8343ffd0ef72",
+  "name" : "goToUrl()",
+  "fullName" : "TestTest.goToUrl",
+  "historyId" : "16d5c095c1e72cbb9d1241f952a0c1ae",
+  "time" : {
+    "start" : 1629652439444,
+    "stop" : 1629652446424,
+    "duration" : 6980
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetDriver",
+    "time" : {
+      "start" : 1629652439462,
+      "stop" : 1629652442562,
+      "duration" : 3100
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629652446342,
+      "stop" : 1629652446418,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-803"
+  }, {
+    "name" : "thread",
+    "value" : "2900@fv-az77-803.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TestTest"
+  }, {
+    "name" : "testClass",
+    "value" : "TestTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "goToUrl"
+  }, {
+    "name" : "suite",
+    "value" : "TestTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "65406f9553aa2d49",
+        "reportUrl" : "https://hacklk.github.io/vizsgaremek_hackl/7//#testresult/65406f9553aa2d49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629636603084,
+          "stop" : 1629636609480,
+          "duration" : 6396
+        }
+      }, {
+        "uid" : "708936aa84500692",
+        "reportUrl" : "https://hacklk.github.io/vizsgaremek_hackl/6//#testresult/708936aa84500692",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629277045478,
+          "stop" : 1629277058881,
+          "duration" : 13403
+        }
+      }, {
+        "uid" : "4e0c9c721eed086e",
+        "reportUrl" : "https://hacklk.github.io/vizsgaremek_hackl/5//#testresult/4e0c9c721eed086e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629276476201,
+          "stop" : 1629276490499,
+          "duration" : 14298
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "844e8343ffd0ef72.json",
+  "parameterValues" : [ ]
+}
