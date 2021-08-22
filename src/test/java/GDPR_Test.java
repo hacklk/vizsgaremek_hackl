@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import pageClasses.GDPR;
-import pageClasses.Landing;
+import pageClasses.LandingCalendar;
 
 import java.util.concurrent.TimeUnit;
 import static org.junit.jupiter.api.Assertions.fail;
@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 public class GDPR_Test {
     WebDriver webDriver;
-    Landing landing;
+    LandingCalendar landingCalendar;
     GDPR gdpr;
 
     @BeforeEach
@@ -38,12 +38,12 @@ public class GDPR_Test {
     @Test
     @Order(1)
     public void TestOpenGDPR() {
-        landing = new Landing(webDriver);
-//        landing.navigateToURL(Constraints.URL);  // ez honnan import ???
-        landing.openGDPR();
+        landingCalendar = new LandingCalendar(webDriver);
+        landingCalendar.navigateToURL(Constraints.URL);
+        landingCalendar.openGDPR();
         gdpr = new GDPR(webDriver);
         gdpr.windowChange();
-        landing.clickCookiesAcceptButton();
+        landingCalendar.clickCookiesAcceptButton();
 
         try {
             Assertions.assertFalse(webDriver.findElement(By.xpath("//app-accept-cookie/section")).isDisplayed());

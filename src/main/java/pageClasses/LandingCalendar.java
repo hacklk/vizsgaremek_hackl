@@ -3,20 +3,20 @@ package pageClasses;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
+import java.util.List;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Landing {
+public class LandingCalendar {
     WebDriver webDriver;
 
-    public Landing(WebDriver webDriver) {
+    public LandingCalendar(WebDriver webDriver) {
         this.webDriver = webDriver;
     }
 
-
+//  LANDING VARIABLES
     private final By HAMBURGER_BUTTON = By.xpath("//mat-icon");
     private final By LOGIN_BUTTON = By.xpath("//mat-toolbar-row/div/div/span");
     private final By LOGIN_PAGE_BUTTON = By.xpath("//mat-nav-list/a[1]/div/span/div[1]");
@@ -36,6 +36,27 @@ public class Landing {
     private final By UPPER_MENU_MUSCLE_BUTTON = By.cssSelector("div:nth-child(7) > button > mat-icon > svg");
     private final By UPPER_MENU_OTHER_BUTTON = By.cssSelector("div:nth-child(8) > button > mat-icon > svg");
 
+//    CALENDAR VARIABLES
+private final By PROFILE_BUTTON = By.xpath("//mat-nav-list/a[4]/div/span/div[1]");
+//    private final By HAMBURGER_BUTTON = By.xpath("//span/mat-icon");
+    private final By LOGOUT_ICON = By.xpath("//mat-icon[2]");
+    private final By MY_TICKETS_MENU = By.xpath("//mat-nav-list/a[3]/div/span/div[1]");
+    private final By BUY_TICKET_BUTTON = By.xpath("//mat-toolbar-row[1]/div/div/button");
+    private final By SIX_TIME_TRAINING = By.xpath("//*[@id=\"mat-option-0\"]/span");
+    private final By TEN_TIME_TRAINING = By.xpath("//*[@id=\"mat-option-1\"]/span");
+    private final By FOURTEEN_TIME_TRAINING = By.xpath("//*[@id=\"mat-option-2\"]/span");
+//    private final By UPPER_MENU_JOGA_BUTTON = By.cssSelector("div:nth-child(1) > button > mat-icon > svg");
+//    private final By UPPER_MENU_PILATES_BUTTON = By.cssSelector("div:nth-child(5) > button > mat-icon > svg");
+//    private final By UPPER_MENU_STRECHING_BUTTON = By.cssSelector("div:nth-child(2) > button > mat-icon > svg");
+//    private final By UPPER_MENU_OTHER_BUTTON = By.cssSelector("div:nth-child(8) > button > mat-icon > svg");
+    private final By NUMBER_OF_TICKETS_DROPDOWN = By.xpath("//*[contains(@role,'listbox')]");
+    private final By APPLY_BUTTON = By.xpath("//mat-card/button[2]");
+
+    private final By TRAINER_BUTTON = By.xpath("//mat-nav-list/a[2]/div/span/div[1]");
+//    private final By TRAINING_LIST = By.xpath("//app-training-calendar-list-view");
+
+// LANDING PAGE FUNCTIONALITIES
+
     public void navigateToURL(String url) {
         webDriver.get(url);
     }
@@ -46,7 +67,7 @@ public class Landing {
 
     public void clickLoginPageButton() {
         webDriver.findElement(LOGIN_PAGE_BUTTON).click();
-//        new LoginPage(webDriver);
+        new LoginLogout(webDriver);
     }
 
     public void clickRegistrationButton() {
@@ -56,7 +77,7 @@ public class Landing {
 
     public void loginButtonClick(){
         webDriver.findElement(LOGIN_BUTTON).click();
-//        new LoginPage(webDriver);
+        new LoginLogout(webDriver);
     }
 
     public void clickCookiesAcceptButton() {
@@ -196,4 +217,81 @@ public class Landing {
         while (trainingsList.size() > 0);
         return sum;
     }
+
+//    CALENDAR PAGE FUNCTIONALITIES
+public void logout() {
+    webDriver.findElement(LOGOUT_ICON).click();
+}
+
+    public void profileButtonClick() {
+        webDriver.findElement(PROFILE_BUTTON).click();
+//        new PersonalDetails(webDriver);
+    }
+
+    public void clickMyTickets(){
+        webDriver.findElement(MY_TICKETS_MENU).click();
+//        new MyTicketsPage(webDriver);
+    }
+
+    public void clickTrainerButton() {
+        webDriver.findElement(TRAINER_BUTTON).click();
+    }
+
+    public void buyTicketButtonClick() {
+        webDriver.findElement(BUY_TICKET_BUTTON).click();
+    }
+
+    public void checkTrainingLiteTicketPrice() {
+        buyTicketButtonClick();
+        webDriver.findElement(NUMBER_OF_TICKETS_DROPDOWN).click();
+        webDriver.findElement(SIX_TIME_TRAINING).click();
+    }
+
+    public void checkTrainingPlusTicketPrice() {
+        buyTicketButtonClick();
+        webDriver.findElement(NUMBER_OF_TICKETS_DROPDOWN).click();
+        webDriver.findElement(FOURTEEN_TIME_TRAINING).click();
+    }
+
+    public void checkTrainingProTicketPricePerTraining() {
+        buyTicketButtonClick();
+        webDriver.findElement(NUMBER_OF_TICKETS_DROPDOWN).click();
+        webDriver.findElement(SIX_TIME_TRAINING).click();
+    }
+
+    public void checkTrainingUltraTicketPricePerTraining() {
+        buyTicketButtonClick();
+        webDriver.findElement(NUMBER_OF_TICKETS_DROPDOWN).click();
+        webDriver.findElement(TEN_TIME_TRAINING).click();
+    }
+
+    public void applyOnTraining() {
+        List<WebElement> trainings = webDriver.findElements(TRAINING_LIST);
+
+        for (WebElement training : trainings) {
+            List<WebElement> trainingDetails = training.findElements(APPLY_BUTTON);
+            for (WebElement apply : trainingDetails) {
+                if (apply.getText().toUpperCase().contains("JELENTKEZEM!")) {
+                    apply.click();
+                    break;
+                }
+            }
+        }
+    }
+
+    public void deleteTraining() {
+        List<WebElement> trainings = webDriver.findElements(TRAINING_LIST);
+
+        for (WebElement training : trainings) {
+            List<WebElement> trainingDetails = training.findElements(APPLY_BUTTON);
+            for (WebElement apply : trainingDetails) {
+                if (apply.getText().toUpperCase().contains("LEMONDÁS")) {
+                    apply.click();
+                    break;
+                }
+            }
+        }
+    }
+
+
 }
