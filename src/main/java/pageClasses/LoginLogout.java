@@ -14,6 +14,12 @@ public class LoginLogout {
     private final By EMAIL_INPUT = By.id("emailOrUserName");
     private final By PASSWORD_INPUT = By.id("password");
     private final By LOGIN_BUTTON = By.xpath("//div/button[1]");
+    private final By REGISTRATION_BUTTON = By.xpath("//app-login-form/div/form/div/button[2]");
+
+    public void registrationButtonClick(){
+        webDriver.findElement(REGISTRATION_BUTTON).click();
+        new Registration(webDriver);
+    }
 
 
     public void userLoginNoEmail(String password){
@@ -39,7 +45,7 @@ public class LoginLogout {
         webDriver.findElement(PASSWORD_INPUT).sendKeys(password);
         webDriver.findElement(LOGIN_BUTTON).click();
         try {
-            Thread.sleep(3000);
+            Thread.sleep(1800);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

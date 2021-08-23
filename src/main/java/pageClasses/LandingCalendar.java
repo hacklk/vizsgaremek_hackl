@@ -3,11 +3,10 @@ package pageClasses;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import java.util.List;
+
+import java.util.*;
 import java.io.*;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class LandingCalendar {
     WebDriver webDriver;
@@ -18,6 +17,7 @@ public class LandingCalendar {
 
 //  LANDING VARIABLES
     private final By HAMBURGER_BUTTON = By.xpath("//mat-icon");
+    private final By LOGIN_ICON = By.xpath("//mat-toolbar-row/div/div/span");
     private final By LOGIN_BUTTON = By.xpath("//mat-toolbar-row/div/div/span");
     private final By LOGIN_PAGE_BUTTON = By.xpath("//mat-nav-list/a[1]/div/span/div[1]");
     private final By REGISTRATION_PAGE_BUTTON = By.xpath("//mat-nav-list/a[2]/div/span/div[1]");
