@@ -1,0 +1,87 @@
+{
+  "uid" : "679ed030af59f563",
+  "name" : "ACT-07 Alter BILLING ADDRESS",
+  "fullName" : "Account_Test.testModifyBillingDetails",
+  "historyId" : "b7dadae3f7fcdd65d61fcb129ac858d9",
+  "time" : {
+    "start" : 1629755855432,
+    "stop" : 1629755862520,
+    "duration" : 7088
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629755855433,
+      "stop" : 1629755855691,
+      "duration" : 258
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close",
+    "time" : {
+      "start" : 1629755862452,
+      "stop" : 1629755862520,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-462"
+  }, {
+    "name" : "thread",
+    "value" : "2894@fv-az74-462.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Account_Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Account_Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "testModifyBillingDetails"
+  }, {
+    "name" : "suite",
+    "value" : "Account_Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "679ed030af59f563.json",
+  "parameterValues" : [ ]
+}

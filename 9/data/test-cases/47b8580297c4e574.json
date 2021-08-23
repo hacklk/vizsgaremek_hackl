@@ -1,0 +1,107 @@
+{
+  "uid" : "47b8580297c4e574",
+  "name" : "ACT-04 CHANGE PASSWORD - with correct data",
+  "fullName" : "Account_Test.testChangePassword",
+  "historyId" : "479683764a7905d81c81b1a338119b0f",
+  "time" : {
+    "start" : 1629755835869,
+    "stop" : 1629755842004,
+    "duration" : 6135
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629755835869,
+      "stop" : 1629755836124,
+      "duration" : 255
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close",
+    "time" : {
+      "start" : 1629755841936,
+      "stop" : 1629755842004,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-462"
+  }, {
+    "name" : "thread",
+    "value" : "2894@fv-az74-462.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Account_Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Account_Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "testChangePassword"
+  }, {
+    "name" : "suite",
+    "value" : "Account_Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "5eaed2fbe4b5cb0c",
+        "reportUrl" : "https://hacklk.github.io/vizsgaremek_hackl/8//#testresult/5eaed2fbe4b5cb0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629652470928,
+          "stop" : 1629652479236,
+          "duration" : 8308
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "47b8580297c4e574.json",
+  "parameterValues" : [ ]
+}

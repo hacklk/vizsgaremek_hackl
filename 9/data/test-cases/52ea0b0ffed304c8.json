@@ -1,0 +1,87 @@
+{
+  "uid" : "52ea0b0ffed304c8",
+  "name" : "ACT-06 Restore LOGIN PASSWORD",
+  "fullName" : "Account_Test.testRestorePassword",
+  "historyId" : "801e37cbef8db885fb012ec41c3e05bf",
+  "time" : {
+    "start" : 1629755849222,
+    "stop" : 1629755855430,
+    "duration" : 6208
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629755849223,
+      "stop" : 1629755849510,
+      "duration" : 287
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close",
+    "time" : {
+      "start" : 1629755855362,
+      "stop" : 1629755855430,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-462"
+  }, {
+    "name" : "thread",
+    "value" : "2894@fv-az74-462.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Account_Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Account_Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRestorePassword"
+  }, {
+    "name" : "suite",
+    "value" : "Account_Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52ea0b0ffed304c8.json",
+  "parameterValues" : [ ]
+}

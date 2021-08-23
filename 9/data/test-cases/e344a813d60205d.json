@@ -1,0 +1,87 @@
+{
+  "uid" : "e344a813d60205d",
+  "name" : "PTR-06 TEST menu (Meditation)",
+  "fullName" : "PT_Tests.testOfMeditationButton",
+  "historyId" : "302b9e9cd4a3cea2691f13dc469d6d9b",
+  "time" : {
+    "start" : 1629755699411,
+    "stop" : 1629755702975,
+    "duration" : 3564
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629755699412,
+      "stop" : 1629755699686,
+      "duration" : 274
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close",
+    "time" : {
+      "start" : 1629755702906,
+      "stop" : 1629755702974,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-462"
+  }, {
+    "name" : "thread",
+    "value" : "2894@fv-az74-462.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "PT_Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "PT_Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testOfMeditationButton"
+  }, {
+    "name" : "suite",
+    "value" : "PT_Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e344a813d60205d.json",
+  "parameterValues" : [ ]
+}

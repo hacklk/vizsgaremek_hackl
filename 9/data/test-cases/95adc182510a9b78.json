@@ -1,0 +1,87 @@
+{
+  "uid" : "95adc182510a9b78",
+  "name" : "PTR-02 SEARCH on training type",
+  "fullName" : "PT_Tests.testChooseTrainingType",
+  "historyId" : "7ea4e812dde0c7c505a2055b59a0b12c",
+  "time" : {
+    "start" : 1629755682283,
+    "stop" : 1629755687254,
+    "duration" : 4971
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629755682284,
+      "stop" : 1629755682561,
+      "duration" : 277
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close",
+    "time" : {
+      "start" : 1629755687188,
+      "stop" : 1629755687254,
+      "duration" : 66
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-462"
+  }, {
+    "name" : "thread",
+    "value" : "2894@fv-az74-462.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "PT_Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "PT_Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testChooseTrainingType"
+  }, {
+    "name" : "suite",
+    "value" : "PT_Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "95adc182510a9b78.json",
+  "parameterValues" : [ ]
+}

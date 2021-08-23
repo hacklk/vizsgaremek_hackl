@@ -1,0 +1,87 @@
+{
+  "uid" : "8c934bbe305c3fd",
+  "name" : "PTR-12 TEST the SUM of ALL FREE Trainings by CSS SELECTOR",
+  "fullName" : "PT_Tests.testFindFreeTrainings",
+  "historyId" : "dfb6d24ca67cc2fb31dc164416f18641",
+  "time" : {
+    "start" : 1629755719107,
+    "stop" : 1629755812564,
+    "duration" : 93457
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629755719108,
+      "stop" : 1629755719372,
+      "duration" : 264
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close",
+    "time" : {
+      "start" : 1629755812495,
+      "stop" : 1629755812564,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-462"
+  }, {
+    "name" : "thread",
+    "value" : "2894@fv-az74-462.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "PT_Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "PT_Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testFindFreeTrainings"
+  }, {
+    "name" : "suite",
+    "value" : "PT_Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c934bbe305c3fd.json",
+  "parameterValues" : [ ]
+}

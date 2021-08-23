@@ -1,0 +1,107 @@
+{
+  "uid" : "39a179a430a4471a",
+  "name" : "REG-05 REGISTRATION no user agreement acceptance",
+  "fullName" : "Registration_Test.testNoClickTermsCondtsRegistration",
+  "historyId" : "aece09d3afa5a0b01b113f2894f5b5cf",
+  "time" : {
+    "start" : 1629755899154,
+    "stop" : 1629755902433,
+    "duration" : 3279
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629755899155,
+      "stop" : 1629755899414,
+      "duration" : 259
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close",
+    "time" : {
+      "start" : 1629755902365,
+      "stop" : 1629755902433,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-462"
+  }, {
+    "name" : "thread",
+    "value" : "2894@fv-az74-462.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Registration_Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration_Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "testNoClickTermsCondtsRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "Registration_Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e4414a3ab03a14c3",
+        "reportUrl" : "https://hacklk.github.io/vizsgaremek_hackl/8//#testresult/e4414a3ab03a14c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629652574253,
+          "stop" : 1629652578042,
+          "duration" : 3789
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "39a179a430a4471a.json",
+  "parameterValues" : [ ]
+}

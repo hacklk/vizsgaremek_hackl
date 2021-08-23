@@ -1,0 +1,87 @@
+{
+  "uid" : "af7b15d149d23542",
+  "name" : "PTR-03 SEARCH on wrong training type",
+  "fullName" : "PT_Tests.testChooseNotValidTrainingType",
+  "historyId" : "3b950b7db1bad88682aed90eeefcb564",
+  "time" : {
+    "start" : 1629755687257,
+    "stop" : 1629755692197,
+    "duration" : 4940
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629755687258,
+      "stop" : 1629755687551,
+      "duration" : 293
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close",
+    "time" : {
+      "start" : 1629755692129,
+      "stop" : 1629755692196,
+      "duration" : 67
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-462"
+  }, {
+    "name" : "thread",
+    "value" : "2894@fv-az74-462.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "PT_Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "PT_Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testChooseNotValidTrainingType"
+  }, {
+    "name" : "suite",
+    "value" : "PT_Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af7b15d149d23542.json",
+  "parameterValues" : [ ]
+}

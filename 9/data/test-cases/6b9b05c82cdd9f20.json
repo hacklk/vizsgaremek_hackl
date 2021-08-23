@@ -1,0 +1,87 @@
+{
+  "uid" : "6b9b05c82cdd9f20",
+  "name" : "PTR-07 TEST menu (Cardio)",
+  "fullName" : "PT_Tests.testOfKardioButton",
+  "historyId" : "56314fc0cdd1143639f1cd6f24a2e0f0",
+  "time" : {
+    "start" : 1629755702977,
+    "stop" : 1629755706247,
+    "duration" : 3270
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629755702977,
+      "stop" : 1629755703235,
+      "duration" : 258
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close",
+    "time" : {
+      "start" : 1629755706179,
+      "stop" : 1629755706247,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-462"
+  }, {
+    "name" : "thread",
+    "value" : "2894@fv-az74-462.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "PT_Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "PT_Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testOfKardioButton"
+  }, {
+    "name" : "suite",
+    "value" : "PT_Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b9b05c82cdd9f20.json",
+  "parameterValues" : [ ]
+}

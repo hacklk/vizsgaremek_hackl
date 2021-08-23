@@ -1,0 +1,87 @@
+{
+  "uid" : "7c17be81eae48b84",
+  "name" : "LOG-01 LOGIN attempt withouth mail address",
+  "fullName" : "LoginLogout_Test.testLoginNoEmail",
+  "historyId" : "e2d7d3129a226aa433448d1e91aba66c",
+  "time" : {
+    "start" : 1629755869451,
+    "stop" : 1629755872143,
+    "duration" : 2692
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629755869451,
+      "stop" : 1629755869704,
+      "duration" : 253
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close",
+    "time" : {
+      "start" : 1629755872075,
+      "stop" : 1629755872143,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-462"
+  }, {
+    "name" : "thread",
+    "value" : "2894@fv-az74-462.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "LoginLogout_Test"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginLogout_Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLoginNoEmail"
+  }, {
+    "name" : "suite",
+    "value" : "LoginLogout_Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c17be81eae48b84.json",
+  "parameterValues" : [ ]
+}

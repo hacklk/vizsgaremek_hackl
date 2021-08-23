@@ -1,0 +1,87 @@
+{
+  "uid" : "966d39a28fda2ac",
+  "name" : "LOG-04 LOGOUT",
+  "fullName" : "LoginLogout_Test.testLogout",
+  "historyId" : "a89e86ea1736e539a5cec27e712cc0c2",
+  "time" : {
+    "start" : 1629755882483,
+    "stop" : 1629755887318,
+    "duration" : 4835
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629755882484,
+      "stop" : 1629755882738,
+      "duration" : 254
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close",
+    "time" : {
+      "start" : 1629755887250,
+      "stop" : 1629755887318,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-462"
+  }, {
+    "name" : "thread",
+    "value" : "2894@fv-az74-462.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "LoginLogout_Test"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginLogout_Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLogout"
+  }, {
+    "name" : "suite",
+    "value" : "LoginLogout_Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "966d39a28fda2ac.json",
+  "parameterValues" : [ ]
+}

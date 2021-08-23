@@ -1,0 +1,87 @@
+{
+  "uid" : "c9b0e8d387c21aca",
+  "name" : "ACT-05 SET BILLING DETAILS",
+  "fullName" : "Account_Test.testUploadAccountBillingDetails",
+  "historyId" : "1d71281947fed0acbdc04fa10e47e726",
+  "time" : {
+    "start" : 1629755842006,
+    "stop" : 1629755849220,
+    "duration" : 7214
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629755842009,
+      "stop" : 1629755842263,
+      "duration" : 254
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close",
+    "time" : {
+      "start" : 1629755849151,
+      "stop" : 1629755849220,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-462"
+  }, {
+    "name" : "thread",
+    "value" : "2894@fv-az74-462.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Account_Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Account_Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "testUploadAccountBillingDetails"
+  }, {
+    "name" : "suite",
+    "value" : "Account_Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c9b0e8d387c21aca.json",
+  "parameterValues" : [ ]
+}

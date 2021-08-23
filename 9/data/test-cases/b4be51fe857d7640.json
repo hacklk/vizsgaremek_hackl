@@ -1,0 +1,87 @@
+{
+  "uid" : "b4be51fe857d7640",
+  "name" : "ACT-01 SUBMIT user details",
+  "fullName" : "Account_Test.testLoadAccountDetails",
+  "historyId" : "993d145b7e3556eefa65e719d57345a7",
+  "time" : {
+    "start" : 1629755816829,
+    "stop" : 1629755822935,
+    "duration" : 6106
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1629755816831,
+      "stop" : 1629755817106,
+      "duration" : 275
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "close",
+    "time" : {
+      "start" : 1629755822866,
+      "stop" : 1629755822934,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-462"
+  }, {
+    "name" : "thread",
+    "value" : "2894@fv-az74-462.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Account_Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Account_Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLoadAccountDetails"
+  }, {
+    "name" : "suite",
+    "value" : "Account_Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b4be51fe857d7640.json",
+  "parameterValues" : [ ]
+}

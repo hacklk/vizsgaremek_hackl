@@ -1,0 +1,361 @@
+[ {
+  "uid" : "db2fa90ee8578667",
+  "name" : "REG-04 REGISTRATION no password validation",
+  "time" : {
+    "start" : 1629755896181,
+    "stop" : 1629755899152,
+    "duration" : 2971
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3bde3945049ef36",
+  "name" : "PTRa-02 OPEN Trainer's page by More Info button",
+  "time" : {
+    "start" : 1629755669169,
+    "stop" : 1629755676431,
+    "duration" : 7262
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c934bbe305c3fd",
+  "name" : "PTR-12 TEST the SUM of ALL FREE Trainings by CSS SELECTOR",
+  "time" : {
+    "start" : 1629755719107,
+    "stop" : 1629755812564,
+    "duration" : 93457
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c7f10c188338d72",
+  "name" : "PTR-09 TEST menu (Shape)",
+  "time" : {
+    "start" : 1629755709774,
+    "stop" : 1629755712399,
+    "duration" : 2625
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22c0c3b66ea80a1",
+  "name" : "ACT-02 CHANGE PASSWORD attempt, wrong password format",
+  "time" : {
+    "start" : 1629755822938,
+    "stop" : 1629755829274,
+    "duration" : 6336
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6389b327bbe2802b",
+  "name" : "REG-01 REGISTRATION no email",
+  "time" : {
+    "start" : 1629755887327,
+    "stop" : 1629755890364,
+    "duration" : 3037
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95adc182510a9b78",
+  "name" : "PTR-02 SEARCH on training type",
+  "time" : {
+    "start" : 1629755682283,
+    "stop" : 1629755687254,
+    "duration" : 4971
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d93371a69e2bf48",
+  "name" : "ACT-03 CHANGE PASSWORD with wrong verification",
+  "time" : {
+    "start" : 1629755829276,
+    "stop" : 1629755835866,
+    "duration" : 6590
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0f2520fd09dedd8",
+  "name" : "ACT-08 Delete all BILLING details, but the name",
+  "time" : {
+    "start" : 1629755862523,
+    "stop" : 1629755869448,
+    "duration" : 6925
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "966d39a28fda2ac",
+  "name" : "LOG-04 LOGOUT",
+  "time" : {
+    "start" : 1629755882483,
+    "stop" : 1629755887318,
+    "duration" : 4835
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba4c692dc913fc43",
+  "name" : "GPR-01 Save GDPR to file",
+  "time" : {
+    "start" : 1629755905589,
+    "stop" : 1629755917956,
+    "duration" : 12367
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a81bef72fb90cf5",
+  "name" : "LOG-04 LOGIN",
+  "time" : {
+    "start" : 1629755877831,
+    "stop" : 1629755882481,
+    "duration" : 4650
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e344a813d60205d",
+  "name" : "PTR-06 TEST menu (Meditation)",
+  "time" : {
+    "start" : 1629755699411,
+    "stop" : 1629755702975,
+    "duration" : 3564
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9b0e8d387c21aca",
+  "name" : "ACT-05 SET BILLING DETAILS",
+  "time" : {
+    "start" : 1629755842006,
+    "stop" : 1629755849220,
+    "duration" : 7214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b9b05c82cdd9f20",
+  "name" : "PTR-07 TEST menu (Cardio)",
+  "time" : {
+    "start" : 1629755702977,
+    "stop" : 1629755706247,
+    "duration" : 3270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47b8580297c4e574",
+  "name" : "ACT-04 CHANGE PASSWORD - with correct data",
+  "time" : {
+    "start" : 1629755835869,
+    "stop" : 1629755842004,
+    "duration" : 6135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6acba117fbe251c2",
+  "name" : "PTR-05 TEST menu (Streching)",
+  "time" : {
+    "start" : 1629755696151,
+    "stop" : 1629755699409,
+    "duration" : 3258
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d16620f6a6d91ae1",
+  "name" : "PTR-04 TEST menu (Yoga)",
+  "time" : {
+    "start" : 1629755692200,
+    "stop" : 1629755696145,
+    "duration" : 3945
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16a87df0ddb86337",
+  "name" : "PTR-11 TEST menu (Other)",
+  "time" : {
+    "start" : 1629755715622,
+    "stop" : 1629755719105,
+    "duration" : 3483
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ccfd69a960fb2a1",
+  "name" : "PTRa-01 FILTER on Personal Trainer's name",
+  "time" : {
+    "start" : 1629755653773,
+    "stop" : 1629755669043,
+    "duration" : 15270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b01c9da5ae5da76",
+  "name" : "LOG-02 LOGIN attempt without password",
+  "time" : {
+    "start" : 1629755872145,
+    "stop" : 1629755874790,
+    "duration" : 2645
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52ea0b0ffed304c8",
+  "name" : "ACT-06 Restore LOGIN PASSWORD",
+  "time" : {
+    "start" : 1629755849222,
+    "stop" : 1629755855430,
+    "duration" : 6208
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5a573a8005b5a06",
+  "name" : "goToUrl()",
+  "time" : {
+    "start" : 1629755812575,
+    "stop" : 1629755816817,
+    "duration" : 4242
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c17be81eae48b84",
+  "name" : "LOG-01 LOGIN attempt withouth mail address",
+  "time" : {
+    "start" : 1629755869451,
+    "stop" : 1629755872143,
+    "duration" : 2692
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "679ed030af59f563",
+  "name" : "ACT-07 Alter BILLING ADDRESS",
+  "time" : {
+    "start" : 1629755855432,
+    "stop" : 1629755862520,
+    "duration" : 7088
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39a179a430a4471a",
+  "name" : "REG-05 REGISTRATION no user agreement acceptance",
+  "time" : {
+    "start" : 1629755899154,
+    "stop" : 1629755902433,
+    "duration" : 3279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4be51fe857d7640",
+  "name" : "ACT-01 SUBMIT user details",
+  "time" : {
+    "start" : 1629755816829,
+    "stop" : 1629755822935,
+    "duration" : 6106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7243980070e41937",
+  "name" : "REG-02 REGISTRATION no password",
+  "time" : {
+    "start" : 1629755890366,
+    "stop" : 1629755893239,
+    "duration" : 2873
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23f8e457bdb0fe6d",
+  "name" : "REG-03 REGISTRATION wrong password",
+  "time" : {
+    "start" : 1629755893241,
+    "stop" : 1629755896179,
+    "duration" : 2938
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dee72d7e366dd7c4",
+  "name" : "REG-07 REGISTRATION",
+  "time" : {
+    "start" : 1629755905583,
+    "stop" : 1629755905583,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f40722a9e0167d77",
+  "name" : "LOG-03 LOGIN attempt wrong password",
+  "time" : {
+    "start" : 1629755874792,
+    "stop" : 1629755877829,
+    "duration" : 3037
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "faa63e92a442d6f3",
+  "name" : "REG-06 REGISTRATION no GDPR acceptance",
+  "time" : {
+    "start" : 1629755902435,
+    "stop" : 1629755905579,
+    "duration" : 3144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49f1d6ad3729023d",
+  "name" : "PTR-08 TEST menu (PILATES)",
+  "time" : {
+    "start" : 1629755706250,
+    "stop" : 1629755709771,
+    "duration" : 3521
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a256386277ca474b",
+  "name" : "PTR-01 SAVE Notification data to txt file",
+  "time" : {
+    "start" : 1629755676436,
+    "stop" : 1629755682280,
+    "duration" : 5844
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3bf056f9a7654b1",
+  "name" : "PTR-10 TEST menu (Strength)",
+  "time" : {
+    "start" : 1629755712401,
+    "stop" : 1629755715619,
+    "duration" : 3218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af7b15d149d23542",
+  "name" : "PTR-03 SEARCH on wrong training type",
+  "time" : {
+    "start" : 1629755687257,
+    "stop" : 1629755692197,
+    "duration" : 4940
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
