@@ -1,0 +1,1 @@
+{"uuid":"bd9630d1-de50-43b1-9cf8-1f5660d514cc","name":"TestUserLogout()","children":["96aeac43-9d09-4ed8-a984-ea72f35e9e7d"],"befores":[{"name":"SetDriver","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1629657585500,"stop":1629657589357}],"afters":[],"links":[],"start":1629657585306,"stop":1629657598991}

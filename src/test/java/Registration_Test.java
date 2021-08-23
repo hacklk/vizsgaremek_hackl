@@ -18,7 +18,7 @@ public class Registration_Test {
 
 
     @BeforeEach
-    public void SetDriver() {
+    public void setDriver() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
@@ -26,111 +26,119 @@ public class Registration_Test {
         options.addArguments("--headless");
         webDriver = new ChromeDriver(options);
 
-        webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        webDriver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
         webDriver.manage().window().maximize();
 
     }
 
     @AfterEach
-    public void tearDown(){
+    public void close(){
         webDriver.quit();
     }
 
     @Test
     @Order(1)
-    @DisplayName("RI-01 Regisztráció email cím megadása nélkül")
+    @DisplayName("REG-01 REGISTRATION no email")
     public void testNoEmailRegistration(){
         landingCalendar = new LandingCalendar(webDriver);
-        landingCalendar.navigateToURL(Constraints.URL);
-        landingCalendar.clickHamburgerButton();
-        landingCalendar.clickRegistrationButton();
+        landingCalendar.navigateToURL(FinalConstants.URL);
+        landingCalendar.loginIconClick();
+        loginLogout = new LoginLogout(webDriver);
+        loginLogout.registrationButtonClick();
         registration = new Registration(webDriver);
-        registration.noEmailRegistration(Constraints.PASSWORD);
+        registration.noEmailRegistration(FinalConstants.VALID_PASSWORD);
 
         Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/registration", webDriver.getCurrentUrl());
     }
 
     @Test
     @Order(2)
-    @DisplayName("RI-02 Regisztráció jelszó megadása nélkül")
+    @DisplayName("REG-02 REGISTRATION no password")
     public void testNoPasswordRegistration(){
         landingCalendar = new LandingCalendar(webDriver);
-        landingCalendar.navigateToURL(Constraints.URL);
-        landingCalendar.clickHamburgerButton();
-        landingCalendar.clickRegistrationButton();
+        landingCalendar.navigateToURL(FinalConstants.URL);
+        landingCalendar.loginIconClick();
+        loginLogout = new LoginLogout(webDriver);
+        loginLogout.registrationButtonClick();
         registration = new Registration(webDriver);
-        registration.noPasswordRegistration(Constraints.EMAIL);
+        registration.noPasswordRegistration(FinalConstants.EMAIL);
 
         Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/registration", webDriver.getCurrentUrl());
     }
 
     @Test
     @Order(3)
-    @DisplayName("RI-03 Regisztráció érvénytelen jelszó megadásával")
+    @DisplayName("REG-03 REGISTRATION wrong password")
     public void testNotValidPasswordRegistration(){
         landingCalendar = new LandingCalendar(webDriver);
-        landingCalendar.navigateToURL(Constraints.URL);
-        landingCalendar.clickHamburgerButton();
-        landingCalendar.clickRegistrationButton();
+        landingCalendar.navigateToURL(FinalConstants.URL);
+        landingCalendar.loginIconClick();
+        loginLogout = new LoginLogout(webDriver);
+        loginLogout.registrationButtonClick();
         registration = new Registration(webDriver);
-        registration.notValidPasswordRegistration(Constraints.EMAIL, Constraints.NOT_VALID_PASSWORD);
+        registration.notValidPasswordRegistration(FinalConstants.EMAIL, FinalConstants.NOT_VALID_PASSWORD);
 
         Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/registration", webDriver.getCurrentUrl());
     }
 
     @Test
     @Order(4)
-    @DisplayName("RI-04 Regisztráció nem egyező jelszavak megadásával")
+    @DisplayName("REG-04 REGISTRATION no password validation")
     public void testNotMatchPasswordRegistration(){
         landingCalendar = new LandingCalendar(webDriver);
-        landingCalendar.navigateToURL(Constraints.URL);
-        landingCalendar.clickHamburgerButton();
-        landingCalendar.clickRegistrationButton();
+        landingCalendar.navigateToURL(FinalConstants.URL);
+        landingCalendar.loginIconClick();
+        loginLogout = new LoginLogout(webDriver);
+        loginLogout.registrationButtonClick();
         registration = new Registration(webDriver);
-        registration.notMatchPasswordRegistration(Constraints.EMAIL, Constraints.PASSWORD, Constraints.NOT_MATCH_PASSWORD);
+        registration.notMatchPasswordRegistration(FinalConstants.EMAIL, FinalConstants.VALID_PASSWORD, FinalConstants.NOT_CORRECT_PASSWORD);
 
         Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/registration", webDriver.getCurrentUrl());
     }
 
     @Test
     @Order(5)
-    @DisplayName("RI-05 Regisztráció a felhasználási feltételek elfogadása nélkül")
+    @DisplayName("REG-05 REGISTRATION no user agreement acceptance")
     public void testNoClickTermsCondtsRegistration(){
         landingCalendar = new LandingCalendar(webDriver);
-        landingCalendar.navigateToURL(Constraints.URL);
-        landingCalendar.clickHamburgerButton();
-        landingCalendar.clickRegistrationButton();
+        landingCalendar.navigateToURL(FinalConstants.URL);
+        landingCalendar.loginIconClick();
+        loginLogout = new LoginLogout(webDriver);
+        loginLogout.registrationButtonClick();
         registration = new Registration(webDriver);
-        registration.noClickTermsCondtsRegistration(Constraints.EMAIL, Constraints.PASSWORD);
+        registration.noClickTermsCondtsRegistration(FinalConstants.EMAIL, FinalConstants.VALID_PASSWORD);
 
         Assertions.assertFalse(webDriver.findElement(By.xpath("//*/div/button[1]")).isEnabled());
     }
 
     @Test
     @Order(6)
-    @DisplayName("RI-06 Regisztráció az adatvédelmi feltételek elfogadása nélkül")
+    @DisplayName("REG-06 REGISTRATION no GDPR acceptance")
     public void testNoClickPrivacyPolicyRegistration(){
         landingCalendar = new LandingCalendar(webDriver);
-        landingCalendar.navigateToURL(Constraints.URL);
-        landingCalendar.clickHamburgerButton();
-        landingCalendar.clickRegistrationButton();
+        landingCalendar.navigateToURL(FinalConstants.URL);
+        landingCalendar.loginIconClick();
+        loginLogout = new LoginLogout(webDriver);
+        loginLogout.registrationButtonClick();
         registration = new Registration(webDriver);
-        registration.noClickPrivacyPolicyRegistration(Constraints.EMAIL, Constraints.PASSWORD);
+        registration.noClickPrivacyPolicyRegistration(FinalConstants.EMAIL, FinalConstants.VALID_PASSWORD);
 
         Assertions.assertFalse(webDriver.findElement(By.xpath("//*/div/button[1]")).isEnabled());
     }
 
+//    YOU LIVE ONLY ONCE
     @Test
     @Order(7)
-    @Disabled
-    @DisplayName("RI-07 Regisztráció minden érvényes adat megadásával")
+    @Disabled // will not run this one
+    @DisplayName("REG-07 REGISTRATION")
     public void testRegistration(){
         landingCalendar = new LandingCalendar(webDriver);
-        landingCalendar.navigateToURL(Constraints.URL);
-        landingCalendar.clickHamburgerButton();
-        landingCalendar.clickRegistrationButton();
+        landingCalendar.navigateToURL(FinalConstants.URL);
+        landingCalendar.loginIconClick();
+        loginLogout = new LoginLogout(webDriver);
+        loginLogout.registrationButtonClick();
         registration = new Registration(webDriver);
-        registration.registration(Constraints.EMAIL, Constraints.PASSWORD);
+        registration.registration(FinalConstants.EMAIL, FinalConstants.VALID_PASSWORD);
 
         Assertions.assertEquals("Sikeres regisztráció, kérjük erősítse meg email címét", webDriver.findElement(By.xpath("//simple-snack-bar/span")).getText());
     }

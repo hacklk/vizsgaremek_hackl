@@ -9,10 +9,10 @@ public class TestTest {
 
     WebDriver webdriver;
 
-//    @BeforeAll
-//    public static void Init() {
-//        WebDriverManager.chromedriver().setup();
-//    }
+    @BeforeAll
+    public static void setUp() {
+        WebDriverManager.chromedriver().setup();
+    }
 
     @BeforeEach
     public void SetDriver() {
@@ -28,7 +28,7 @@ public class TestTest {
     }
 
     @AfterEach
-    public void tearDown(){
+    public void close(){
         webdriver.quit();
     }
 

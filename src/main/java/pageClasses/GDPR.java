@@ -14,7 +14,7 @@ public class GDPR {
         ArrayList<String> tabTwo = new ArrayList<>(webDriver.getWindowHandles());
         webDriver.switchTo().window(tabTwo.get(1));
         webDriver.close();
-        webDriver.switchTo().window(tabTwo.get(0)); // ez miert kell?
+        webDriver.switchTo().window(tabTwo.get(0));
     }
 }
 

@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import pageClasses.LandingCalendar;
 import pageClasses.LoginLogout;
-import pageClasses.LandingCalendar;
+
 import java.util.concurrent.TimeUnit;
 
 
@@ -18,7 +18,7 @@ public class LoginLogout_Test {
 
 
     @BeforeEach
-    public void SetDriver() {
+    public void setDriver() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
@@ -31,82 +31,77 @@ public class LoginLogout_Test {
     }
 
     @AfterEach
-    public void tearDown(){
+    public void close(){
         webDriver.quit();
     }
 
 
     @Test
     @Order(1)
-    @DisplayName("LI-01 Bejelentkezés felhasználóként email cím megadása nélkül")
-    public void TestUserLoginNoEmail(){
+    @DisplayName("LOG-01 LOGIN attempt withouth mail address")
+    public void testLoginNoEmail(){
         landingCalendar = new LandingCalendar(webDriver);
-        landingCalendar.navigateToURL(Constraints.URL);
-        landingCalendar.clickHamburgerButton();
-        landingCalendar.clickLoginPageButton();
+        landingCalendar.navigateToURL(FinalConstants.URL);
+        landingCalendar.loginIconClick();
         loginLogout = new LoginLogout(webDriver);
-        loginLogout.userLoginNoEmail(Constraints.PASSWORD);
+        loginLogout.userLoginNoEmail(FinalConstants.VALID_PASSWORD);
 
         Assertions.assertTrue(webDriver.findElement(By.id("mat-error-2")).isDisplayed());
     }
 
     @Test
     @Order(2)
-    @DisplayName("LI-02 Bejelentkezés felhasználóként jelszó megadása nélkül")
-    public void TestUserLoginNoPassword(){
+    @DisplayName("LOG-02 LOGIN attempt without password")
+    public void testLoginNoPassword(){
         landingCalendar = new LandingCalendar(webDriver);
-        landingCalendar.navigateToURL(Constraints.URL);
-        landingCalendar.clickHamburgerButton();
-        landingCalendar.clickLoginPageButton();
+        landingCalendar.navigateToURL(FinalConstants.URL);
+        landingCalendar.loginIconClick();
         loginLogout = new LoginLogout(webDriver);
-        loginLogout.userLoginNoPassword(Constraints.EMAIL);
+        loginLogout.userLoginNoPassword(FinalConstants.EMAIL);
 
         Assertions.assertFalse(webDriver.findElement(By.xpath("//div/button[1]")).isEnabled());
     }
 
     @Test
     @Order(3)
-    @DisplayName("LI-03 Bejelentkezés felhasználóként rossz jelszó megadásával")
-    public void TestUserLoginWrongPassword(){
+    @DisplayName("LOG-03 LOGIN attempt wrong password")
+    public void testLoginWrongPassword(){
         landingCalendar = new LandingCalendar(webDriver);
-        landingCalendar.navigateToURL(Constraints.URL);
-        landingCalendar.clickHamburgerButton();
-        landingCalendar.clickLoginPageButton();
+        landingCalendar.navigateToURL(FinalConstants.URL);
+        landingCalendar.loginIconClick();
         loginLogout = new LoginLogout(webDriver);
-        loginLogout.userLoginWrongPassword(Constraints.EMAIL, Constraints.USER_WRONG_PASSWORD);
+        loginLogout.userLoginWrongPassword(FinalConstants.EMAIL, FinalConstants.USER_WRONG_PASSWORD);
 
         Assertions.assertTrue(webDriver.findElement(By.xpath("//notifier-container/ul/li/notifier-notification/p")).isDisplayed());
     }
 
     @Test
     @Order(4)
-    @DisplayName("LI-04 Bejelentkezés felhasználóként érvényes adatokkal")
-    public void TestUserLogin(){
+    @DisplayName("LOG-04 LOGIN")
+    public void testLogin(){
         landingCalendar = new LandingCalendar(webDriver);
-        landingCalendar.navigateToURL(Constraints.URL);
-        landingCalendar.clickHamburgerButton();
-        landingCalendar.clickLoginPageButton();
+        landingCalendar.navigateToURL(FinalConstants.URL);
+        landingCalendar.loginIconClick();
         loginLogout = new LoginLogout(webDriver);
-        loginLogout.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
+        loginLogout.userLogin(FinalConstants.EMAIL, FinalConstants.VALID_PASSWORD);
 
-        Assertions.assertEquals("Hello, " + Constraints.USER_FIRSTNAME, webDriver.findElement(By.xpath("//mat-toolbar-row[1]/div/div/span")).getText());
+        Assertions.assertEquals("Hello, " + FinalConstants.FIRSTNAME, webDriver.findElement(By.xpath("//mat-toolbar-row[1]/div/div/span")).getText());
     }
 
 //    LOGOUT
-@RepeatedTest(5)
-@Order(1)
-@DisplayName("LO-01 User kijlentkezés")
-public void TestUserLogout() {
-    landingCalendar = new LandingCalendar(webDriver);
-    landingCalendar.navigateToURL(Constraints.URL);
-    landingCalendar.clickHamburgerButton();
-    landingCalendar.clickLoginPageButton();
-    loginLogout = new LoginLogout(webDriver);
-    loginLogout.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
-    landingCalendar = new LandingCalendar(webDriver);
-    landingCalendar.logout();
+    @Test
+    @Order(5)
+    @DisplayName("LOG-04 LOGOUT")
+    public void testLogout() {
+        landingCalendar = new LandingCalendar(webDriver);
+        landingCalendar.navigateToURL(FinalConstants.URL);
+        landingCalendar.loginIconClick();
+        loginLogout = new LoginLogout(webDriver);
+        loginLogout.userLogin(FinalConstants.EMAIL, FinalConstants.VALID_PASSWORD);
+        landingCalendar = new LandingCalendar(webDriver);
+        landingCalendar.logout();
 
-    Assertions.assertEquals("BELÉPÉS", webDriver.findElement(By.cssSelector("mat-toolbar-row > div > div > span")).getText());
-}
+        Assertions.assertEquals("BELÉPÉS", webDriver.findElement(By.cssSelector("mat-toolbar-row > div > div > span")).getText());
+    }
 
 }

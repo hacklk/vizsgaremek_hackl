@@ -1,0 +1,1 @@
+{"uuid":"e5f1f034-6342-4ef4-957d-df2d9f776341","name":"PTR-12 Test the SUM of ALL FREE Trainings","children":["cf1b92bf-eb12-4d65-80d0-441bd45e1ef2"],"befores":[{"name":"SetDriver","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1629723891095,"stop":1629723897137}],"afters":[],"links":[],"start":1629723890770,"stop":1629724069533}

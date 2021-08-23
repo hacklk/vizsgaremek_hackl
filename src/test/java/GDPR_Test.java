@@ -18,7 +18,7 @@ public class GDPR_Test {
     GDPR gdpr;
 
     @BeforeEach
-    public void SetDriver() {
+    public void setDriver() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
@@ -31,15 +31,16 @@ public class GDPR_Test {
     }
 
     @AfterEach
-    public void tearDown() {
+    public void close() {
         webDriver.quit();
     }
 
     @Test
     @Order(1)
+    @DisplayName("GPR-01 Save GDPR to file")
     public void TestOpenGDPR() {
         landingCalendar = new LandingCalendar(webDriver);
-        landingCalendar.navigateToURL(Constraints.URL);
+        landingCalendar.navigateToURL(FinalConstants.URL);
         landingCalendar.openGDPR();
         gdpr = new GDPR(webDriver);
         gdpr.windowChange();
@@ -48,6 +49,7 @@ public class GDPR_Test {
         try {
             Assertions.assertFalse(webDriver.findElement(By.xpath("//app-accept-cookie/section")).isDisplayed());
         } catch (Exception e) {
+            System.out.println();
         }
     }
 }

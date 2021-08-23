@@ -1,0 +1,1 @@
+{"uuid":"92ed4da4-816d-4b32-817d-1bb75f0657ce","name":"REG-01 REGISTRATION no email","children":["6b3bc6ff-08d6-48c4-bd1a-823741d4a868"],"befores":[{"name":"SetDriver","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1629713782902,"stop":1629713787712}],"afters":[],"links":[],"start":1629713782661,"stop":1629713802327}
